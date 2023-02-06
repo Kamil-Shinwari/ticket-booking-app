@@ -1,0 +1,52 @@
+name: kamil_s_application2
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  smooth_page_indicator: ^1.0.0+2
+  flutter_svg_provider: ^1.0.3
+  intl: ^0.17.0
+  flutter_spinkit: ^5.1.0
+  syncfusion_flutter_datepicker: ^20.4.43
+  flutter_launcher_icons: ^0.11.0
+  google_maps_flutter: ^2.2.3
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter_icons:
+  image_path: "assets/images/d.png" 
+  android: true
+  ios: true
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Vast Shadow
+      fonts: 
+        - asset: assets/fonts/VastShadowRegular.ttf
+          weight: 400
+    - family: Urbanist
+      fonts: 
+        - asset: assets/fonts/UrbanistRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/UrbanistRomanBlack.ttf
+          weight: 900
+        - asset: assets/fonts/UrbanistSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/UrbanistRegular.ttf
+          weight: 400
+        - asset: assets/fonts/UrbanistRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/UrbanistRomanMedium.ttf
+          weight: 500
+    - family: Source Sans Pro
+      fonts: 
+        - asset: assets/fonts/SourceSansProSemiBold.ttf
+          weight: 600
